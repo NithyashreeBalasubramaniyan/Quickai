@@ -11,7 +11,12 @@ const app = express()
 
 connectCloudinary()
 
-app.use(cors())
+const allowedOrigins = ['https://quick-ai-client-lemon.vercel.app'];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true // if needed
+}));
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 
