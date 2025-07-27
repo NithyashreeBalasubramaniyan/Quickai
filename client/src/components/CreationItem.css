@@ -1,0 +1,52 @@
+.creationitem{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+    margin-top: 15px;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+
+}
+.image-item{
+    width: 250px;
+    height: 250px;
+}
+.creation-item-info{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+.creation-item-prompt{
+  color: gray;
+}
+.creation-item-type{
+    font-weight: 500;
+}
+.creation-item-btn{
+    
+    background:linear-gradient(135deg,#BFDBFE,#1E40AF);
+    color: white;
+    border: none;
+    padding: 6px;
+   width: auto;
+    border-radius: 10px;
+    height: auto;
+
+}
+.prompt-content-box{
+   
+    padding: 10px;
+    color:rgb(84, 82, 82);
+    font-size: 14px;
+    max-height: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 4px grey;
+    overflow-y: scroll;
+}
+.prompt-content{
+    width: 95%;
+    padding: 10px;
+   
+}

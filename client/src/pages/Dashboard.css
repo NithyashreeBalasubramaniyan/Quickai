@@ -1,0 +1,90 @@
+.dashboard{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(236, 240, 243);
+    padding: 20px;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+.dashboard::-webkit-scrollbar{
+
+    display: none;
+}
+.dashboard-head{
+ display: flex;
+ width: 100%;
+ gap:50px;
+ flex-wrap: wrap;
+ 
+}
+.dashboard-comp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+   border-radius: 7px;
+
+}
+.dashboard-comp-head{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+}
+.dashboard-info{
+    font-weight: 500;
+}
+.sparkle{
+    background: linear-gradient(#3588F2,#00BBD7);
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    color:white;
+    border-radius: 5px;
+}
+.gem{
+     background: linear-gradient(#FF61C5,#9F53FE);
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    color:white;
+    border-radius: 5px;
+}
+.dashboard-title{
+    color:gray;
+}
+.recent-creation-block{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.recent-creation-title{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.loader-in-dashboard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader-in-dashboard .loader{
+    width: 40px;
+    height:40px;
+    margin: 0 auto;
+}
+@media (max-width:770px){
+  
+    .dashboard{
+        width: 100%;
+    }
+    .dashboard-head{
+        justify-content: center;
+    }
+}

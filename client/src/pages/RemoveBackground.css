@@ -1,0 +1,130 @@
+.remove-bg-section {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.remove-bg {
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 10px;
+    padding-top: 40px;
+}
+
+.rbg-left-portion,
+.rbg-right-portion {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 25px;
+}
+
+.rbg-left-portion {
+    width: 45%;
+}
+
+.rbg-right-portion {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rbg-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.rbg-title span {
+    color: #FF8C42;
+}
+
+.rbg-sub-title {
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #555;
+}
+
+.rbg-input {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.rbg-btn {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 25px;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(135deg, #FF8C42, #FFA35C);
+    cursor: pointer;
+}
+
+.rbg-preview {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.rbg-icon {
+    color: #FF8C42;
+}
+
+.rbg-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    gap: 10px;
+    height: 80%;
+    margin: auto;
+}
+
+.rbg-preview-area {
+    border: 1px dashed #FF8C42;
+   
+    border-radius: 8px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.rbg-preview-area embed,
+.rbg-preview-area img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.eraser-icon{
+    margin-bottom: 10px;
+    color: #FF8C42;
+}
+@media (max-width:770px){
+  .remove-bg{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  overflow-y: auto;
+  }
+  .rbg-left-portion,.rbg-right-portion{
+    width: 100%;
+  }
+
+}

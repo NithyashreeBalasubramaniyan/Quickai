@@ -1,0 +1,45 @@
+.navbar-btn{
+    background-color: #5044E5;
+    color:white;
+    font-size: medium;
+
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.right-arrow{
+    background-color: transparent;
+}
+.navbar{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+@media ( max-width:770px){
+    .navbar-btn p{
+       display: none;
+    }
+    .navbar-btn{
+        height: 40px;
+        width: 40px;
+        padding: none;
+    }
+    .navbar img{
+        width: 150px;
+    }
+    .right-arrow{
+        width: 22px;
+        height: 22px;
+    }
+
+}

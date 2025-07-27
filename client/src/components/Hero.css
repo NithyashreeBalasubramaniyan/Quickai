@@ -1,0 +1,85 @@
+.hero-section{
+    
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    gap:15px;
+    padding-bottom: 45px;
+    backdrop-filter: blur(30px);
+}
+.hero-section-title  {
+ margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+.hero-section-title b{
+    color: #5044E5;
+    margin: 15px;
+    font-size: 45px;
+}
+.hero-section-description{
+    color:gray;
+    text-align: center;
+   
+}
+.hero-btn{
+    display: flex;
+    gap:20px;
+    margin: 20px;
+ 
+}
+.start-btn{
+    width:180px;
+    padding: 15px ;
+    border-radius: 25px;
+    border: none;
+    background-color: #5044E5;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    transition: 0.2s linear;
+}
+.demo-btn{
+    width: 180px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+   font-weight: 600;
+    font-size: 17px;
+    transition: 0.2s linear;
+
+}
+.hero-bottom-section{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.hero-bottom-section p{
+    color: gray;
+}
+.hero-bottom-section img{
+    width: 150px;
+}
+.start-btn:hover{
+    background-color: #1207ac;
+ 
+}
+.demo-btn:hover{
+    border:2px solid #5044E5;
+}
+@media (max-width:770px){
+    .hero-section-title{
+        font-size:35px;
+    }
+    .hero-section-title b{
+        font-size: 35px;
+    }
+    .hero-section-description{
+        font-size: 18px;
+    }
+    .hero-bottom-section img{
+        width: 100px;
+    }
+}

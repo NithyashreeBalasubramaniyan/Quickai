@@ -1,0 +1,23 @@
+.layout-main{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(236, 240, 243);
+}
+.layout-header{
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 10px ;
+ 
+    box-shadow: 0px 0px 4px gainsboro ;
+    
+}
+.menu-icon{
+    margin: 15px;
+}
+
+@media (min-width:770px){
+    .menu-icon{
+        display: none;
+    }
+}
