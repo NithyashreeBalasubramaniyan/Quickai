@@ -102,7 +102,7 @@ export const RemoveObject = () => {
           </div>
           <div className="preview-box">
             {content? (
-              <embed src={content} type={file?.type} width="100%" height="100%" />
+              <img src={content}  width="100%" height="100%" />
             ) : (
               <p className="no-file-text"><FileImage className='file-img'/>No file uploaded yet.</p>
             )}

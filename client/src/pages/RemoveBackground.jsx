@@ -90,7 +90,7 @@ export const RemoveBackground = () => {
           <div className="rbg-preview-area">
             {content ? (
                 <a href={content} target="_blank" rel="noopener noreferrer">
-                  <embed src={content} type={file?.type} width="100%" height="100%" className="rbg-preview-image" />
+                  <img src={content}  width="100%" height="100%" className="rbg-preview-image" />
                 </a>
               ) : (
                 <p><Eraser className='eraser-icon'/><br /> No file uploaded yet</p>
